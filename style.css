@@ -1,0 +1,208 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.container{
+    width: 1140px;
+    margin: auto;
+}
+
+ul{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    margin-top: 20px;
+    width: 100%;
+}
+
+header .logo{
+    float: left;
+    width: 20%;
+}
+
+header .logo img{
+    width: 120px;
+    height: auto;
+}
+
+.nav{
+    float: left;
+    width: 63.25%;
+}
+
+.nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 8px;
+    margin-right: 18px;
+    text-transform: capitalize;
+}
+
+header .button{
+    float: left;
+    width: 16.75%;
+}
+
+button{
+    padding: 12px 18px;
+    background-color: #ff6162;
+    border: 1px solid #ff6162;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.banner-section{
+    width: 100%;
+    padding: 130px 0px;
+}
+
+.banner-section .left, .banner-section .right{
+    float: left;
+    width: 50%;
+}
+
+.banner-section .left h1{
+    margin-top: 60px;
+    font-size: 35px;
+    line-height: 45px;
+    text-transform: capitalize;
+}
+
+.banner-section .left p{
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 40px;
+}
+
+.banner-section .left ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    background: red;
+    height: 50px;
+    width: 50px;
+    border: 1px solid red;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.banner-section .left ul li:hover{
+    background: transparent;
+    
+}
+
+.banner-section .left ul li i{
+    color: rgb(146, 32, 32);
+    font-size: 25px;
+    margin-top: 13px;
+    transition: 0.5s;
+}
+
+.banner-section .left ul li:hover i{
+    color: red;
+    transition: 0.5s;
+    transform: scale(1.5);
+}
+
+.banner-section .right img{
+    width: 100%;
+    height: auto;
+}
+
+.project-section{
+    width: 100%;
+    padding: 100px 0px;
+    clear: both;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.title p{
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.555);
+}
+
+.projects{
+    display: flex;
+    justify-content: center;
+}
+
+.catagory{
+    text-align: center;
+    margin: 0px 15px;
+    
+}
+
+.catagory img{
+    width: 100%;
+    height: auto;
+    box-shadow: 4px 3px 10px 0px rgba(0, 0, 0, 0.5);   
+    margin-bottom: 15px;
+}
+
+.features{
+    display: flex;
+}
+
+.card{
+    background-color: rgb(206, 201, 201);
+    text-align: center;
+    padding: 30px 20px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.card i{
+    background: white;
+    color: #ff6162;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    border-radius: 50%;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.card h4{
+    font-size: 20px;
+}
+
+footer{
+    background-color: #292640;
+    padding-top: 50px;
+}
+
+footer h1{
+    color: white;
+    padding: 0px 370px;
+}
+
+footer .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line-section{
+    padding: 0px 100px;
+}
+
+.line-section .line{
+    background-color: rgb(179, 169, 169);
+    height: 100px;
+}
